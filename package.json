@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://SeregaLucky.github.io/hw_10",
   "scripts": {
-    "dev": "parcel src/*.html",
+    "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /hw_10/"
   },
   "repository": {
@@ -17,6 +17,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",

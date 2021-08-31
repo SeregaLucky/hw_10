@@ -1,0 +1,21 @@
+{{#each this}}
+  <li class="item" data-id={{id}}>
+    <h2>{{nameCat}}</h2>
+
+    <img height="200" src={{srcPhoto}} alt="">
+
+    <ul>
+      {{#each kittens}}
+      <li data-kittenName={{id}}>
+        {{!-- <img height="100" src={{src}} alt=""> --}}
+        <button type="button" data-action="showPhoto">{{name}}</button>
+      </li>
+      {{/each}}
+    </ul>
+
+
+    <div>
+      <button type="button" data-action="remove">Remove</button>
+    </div>
+  </li>
+{{/each}}
